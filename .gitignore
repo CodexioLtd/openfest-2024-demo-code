@@ -1,0 +1,39 @@
+# General ignores
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Ignore CLion project files
+.idea/
+*.iml
+
+# Ignore CLion CMake auto-generated files
+cmake-build-*/
+
+# Ignore compiled binaries and libraries
+bin/
+lib/
+
+# Ignore system-specific files
+.vscode/
+*.sublime-workspace
+Thumbs.db
